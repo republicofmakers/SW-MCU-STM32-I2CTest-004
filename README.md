@@ -2,25 +2,22 @@
 
 Here is an I2C for SHT4X humidity and temperature sensor for STM32 microcontrollers.
 
-![start](https://github.com/user-attachments/assets/da9c88ee-c23d-4dfe-a70b-0f3b38288588)
-
+![start](https://github.com/user-attachments/assets/b4a2711f-6719-4c9e-8f67-cfdb7abcaabf)
 
 I generate code from its datasheet.
 
-
-![meas](https://github.com/user-attachments/assets/29613be2-c60a-4bce-af2e-f507d6ab7447)
-
-
-![temp](https://github.com/user-attachments/assets/34a0751d-da62-4db1-abc4-17fe42f87cf4)
+![meas](https://github.com/user-attachments/assets/3bd7e740-505a-4c8b-99b4-c8c5b1f87079)
 
 
-![hum](https://github.com/user-attachments/assets/47d8cdfb-cffe-41eb-adc1-c8c53a0609c6)
+![hum](https://github.com/user-attachments/assets/e4aa9e43-7b7d-49a6-b51f-a19a9ca8eb55)
 
 
+![temp](https://github.com/user-attachments/assets/c9af00bd-d5dd-4603-85d8-044d73a880d4)
 
 
 Added some debug prints, sometimes jumper wires can be loose connection.
-If you manufacture PCB, you can remove those.
+
+If you manufacture PCB, you can remove those lines.
 
 Added CRC to be sure data is received correctly from the sensor.
 
